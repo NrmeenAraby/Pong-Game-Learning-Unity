@@ -36,7 +36,9 @@ public class BallMovement : MonoBehaviour {
 	}
 	public void IncreaseHitCounter()
 	{
-		if (hitCounter * extraSpeedPerHit <= maxExtraSpeed) { 
-		    hitCounter++;
+		if (hitCounter * extraSpeedPerHit <= maxExtraSpeed)
+		{
+			hitCounter++;
 		}
+	}
 }
