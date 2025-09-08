@@ -13,7 +13,7 @@ public class ScoreController : MonoBehaviour {
     public int goalToWin;
     // Update is called once per frame
     void Update () {
-		if(scorePlayer1==goalToWin || scorePlayer2 == goalToWin)
+		if(scorePlayer1>=goalToWin || scorePlayer2 >= goalToWin)
         {
             Debug.Log("Winner Winner");
         }

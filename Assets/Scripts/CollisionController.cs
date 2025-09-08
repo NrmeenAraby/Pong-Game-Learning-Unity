@@ -15,10 +15,12 @@ public class CollisionController : MonoBehaviour {
 		else if (collision.gameObject.name == "LeftWall")
 		{
 			scoreController.GoalPlayer2();
+			StartCoroutine(ballMovement.StartBall(true));
 		}
 		else if (collision.gameObject.name == "RightWall")
 		{
 			scoreController.GoalPlayer1();
+			StartCoroutine(ballMovement.StartBall(false));
 		}
 	}
 	public void BounceFromRacket(Collision2D collision)
