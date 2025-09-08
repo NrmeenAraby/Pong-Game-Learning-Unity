@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 153186574}
   - component: {fileID: 153186572}
   - component: {fileID: 153186575}
+  - component: {fileID: 153186576}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -340,12 +341,25 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153186569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10756a95d26235d4bb8b4ca3f86b7459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 200
+--- !u!114 &153186576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153186569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4495c78419409784f8af21557ce99550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
+  ball: {fileID: 2008815009}
 --- !u!1 &299933456
 GameObject:
   m_ObjectHideFlags: 0
